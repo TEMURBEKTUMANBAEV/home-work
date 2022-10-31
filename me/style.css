@@ -1,0 +1,126 @@
+body {
+    background: brown;
+  }
+  /* Start */
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1350px;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* header */
+  .header {
+    background: blue;
+  }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .header__logo {
+    background: yellow;
+    border-radius: 50px;
+    padding: 15px;
+  }
+  .header__nav {
+  }
+  .header__ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+  }
+  .header__ul a {
+    margin: 0 20px;
+    padding: 10px 20px;
+    background: yellow;
+  }
+  /* main */
+  .main {
+  }
+  /* 1 section */
+  .block__one {
+    background: url(hoot.webp) center no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .block__one__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .block__one__title {
+    color: white;
+    font-size: 70px;
+  }
+  /* 2 section */
+  .biock__two{
+  }
+  .biock__two__content {
+  }
+  .block__two__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media(max-width:745px){
+    .block__two__boxes{
+      justify-content: center;
+    }
+  }
+  .block__two__box {
+    margin: 50px;
+    background: white;
+    max-width: 250px;
+    padding: 20px;
+  }
+  .block__two__title {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 110px;
+  }
+  .block__two__title a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .block__two__title a::after {
+    content: "";
+    position: absolute;
+    left: -95px;
+    top: -40px;
+    width: 80px;
+    height: 80px;
+    background: url(moon.jpeg) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .block__two__title h1::before{
+      content: "1";
+      position: absolute;
+      right: -85px;
+      top: -35px;
+      width: 30px;
+      height:30px ;
+      background: red;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  /* footer */
+  .footer {
+      background: blue;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1350px;
+  }
+  .footer h3{
+  text-align: center;
+  }
+  
